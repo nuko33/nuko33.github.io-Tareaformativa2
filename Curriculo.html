@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<main>
+    <section>
+        <!-- Título solicitado en heading 2 -->
+        <h2>Datos Generales</h2>
+
+        <!-- Formulario con los campos solicitados -->
+        <form action="#" method="post">
+            <!-- Nombre -->
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <br>
+            <!-- Apellido -->
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <br>
+            <!-- Cédula -->
+            <div>
+                <label for="cedula">Cédula:</label>
+                <input type="text" id="cedula" name="cedula" required>
+            </div>
+            <br>
+            <!-- Teléfono -->
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <br>
+            <!-- Fecha de Nacimiento -->
+            <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+            </div>
+            <br>
+            <!-- Sexo usando radio buttons para una única selección -->
+            <fieldset>
+                <legend>Sexo:</legend>
+                <div>
+                    <input type="radio" id="sexo_masculino" name="sexo" value="masculino">
+                    <label for="sexo_masculino">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" id="sexo_femenino" name="sexo" value="femenino">
+                    <label for="sexo_femenino">Femenino</label>
+                </div>
+                <div>
+                    <input type="radio" id="sexo_otro" name="sexo" value="otro">
+                    <label for="sexo_otro">Otro</label>
+                </div>
+            </fieldset>
+            <br>
+            <!-- Dirección -->
+            <div>
+                <label for="direccion">Dirección:</label>
+                <textarea id="direccion" name="direccion" rows="4" cols="30"></textarea>
+            </div>
+            <br>
+            <!-- Corregimiento -->
+            <div>
+                <label for="corregimiento">Corregimiento:</label>
+                <input type="text" id="corregimiento" name="corregimiento">
+            </div>
+            <br>
+            <!-- Provincia -->
+            <div>
+                <label for="provincia">Provincia:</label>
+                <input type="text" id="provincia" name="provincia">
+            </div>
+            <br>
+            <!-- País -->
+            <div>
+                <label for="pais">País:</label>
+                <input type="text" id="pais" name="pais">
+            </div>
+            <br>
+            <!-- Botón de envío -->
+            <div>
+                <button type="submit">Enviar Datos</button>
+            </div>
+        </form>
+    </section>
+</main>
